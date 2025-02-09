@@ -1,0 +1,1 @@
+This repository demonstrates a common issue encountered when using the catch-all route `/*` in React Router v6.  The problem arises when a route is defined that partially matches the catch-all. This leads to an infinite redirect loop. The solution involves careful ordering of routes to avoid unintended matches.
